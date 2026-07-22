@@ -1,0 +1,816 @@
+{
+  "users": [
+    {
+      "id": "usr-b5b4369e7629c525",
+      "email": "sancho2010only@mail.ru",
+      "name": "Andrey",
+      "passwordHash": "$2a$10$tqJLq8KNkG4r2ZGHipGyWOLODfTRoekERa0VFqcmEPo08NGkxCAHG",
+      "createdAt": "2026-06-27T10:46:38.853Z",
+      "favorites": [],
+      "cart": [],
+      "profile": {
+        "gender": "",
+        "height": "",
+        "weight": "",
+        "size": "",
+        "styles": [],
+        "budget": "",
+        "bonus": 0,
+        "cashback": 0,
+        "savedTryOns": []
+      }
+    },
+    {
+      "id": "usr-fdbcf5bc0d9a5903",
+      "email": "achildievdierbej@gmail.com",
+      "name": "Diyor",
+      "passwordHash": "$2a$10$TpmuLK4nnyy6Qjpl.NpFOOEOyoY7k3osEXg2f9B2ix93kX6r1EXAi",
+      "createdAt": "2026-07-22T16:45:07.978Z",
+      "favorites": [],
+      "cart": [],
+      "profile": {
+        "gender": "",
+        "height": "",
+        "weight": "",
+        "size": "",
+        "styles": [],
+        "budget": "",
+        "bonus": 0,
+        "cashback": 0,
+        "savedTryOns": []
+      }
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-hoodie-1",
+      "name": "Худи Street Minimal",
+      "category": "hoodies",
+      "gender": "unisex",
+      "thumbnail": "men hoodies/Burberry.jpg",
+      "description": "Удобное худи в уличном стиле.",
+      "variants": [
+        {
+          "sku": "HOD-M-BLK-S",
+          "color": "чёрный",
+          "size": "S",
+          "price": 145000,
+          "stock": 4,
+          "image": "men hoodies/Burberry.jpg"
+        },
+        {
+          "sku": "HOD-M-BLK-M",
+          "color": "чёрный",
+          "size": "M",
+          "price": 145000,
+          "stock": 0,
+          "image": "men hoodies/Burberry.jpg"
+        },
+        {
+          "sku": "HOD-M-GRY-L",
+          "color": "серый",
+          "size": "L",
+          "price": 145000,
+          "stock": 3,
+          "image": "men hoodies/Essentails.jpg"
+        }
+      ]
+    },
+    {
+      "id": "prod-hoodie-2",
+      "name": "Худи Neon Vibe",
+      "category": "hoodies",
+      "gender": "women",
+      "thumbnail": "girl hoodies/Champion.jpg",
+      "description": "Яркое худи с неоновым принтом.",
+      "variants": [
+        {
+          "sku": "HOD-W-PNK-S",
+          "color": "розовый",
+          "size": "S",
+          "price": 150000,
+          "stock": 5,
+          "image": "girl hoodies/Champion.jpg"
+        },
+        {
+          "sku": "HOD-W-PNK-M",
+          "color": "розовый",
+          "size": "M",
+          "price": 150000,
+          "stock": 2,
+          "image": "girl hoodies/Champion.jpg"
+        }
+      ]
+    },
+    {
+      "id": "prod-sneakers-1",
+      "name": "Кроссовки Air Sport",
+      "category": "sneakers",
+      "gender": "men",
+      "thumbnail": "men sneakers/Nike Jordan.jpg",
+      "description": "Комфортные кроссовки для улицы.",
+      "variants": [
+        {
+          "sku": "SNK-M-WHT-42",
+          "color": "белый",
+          "size": "42",
+          "price": 130000,
+          "stock": 2,
+          "image": "men sneakers/Nike Jordan.jpg"
+        },
+        {
+          "sku": "SNK-M-BLK-43",
+          "color": "чёрный",
+          "size": "43",
+          "price": 130000,
+          "stock": 1,
+          "image": "men sneakers/Air Force 1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "prod-sneakers-2",
+      "name": "Кроссовки Pink Runner",
+      "category": "sneakers",
+      "gender": "women",
+      "thumbnail": "girl sneakers/Pink sneakers.jpg",
+      "description": "Женские кроссовки в розовом цвете.",
+      "variants": [
+        {
+          "sku": "SNK-W-PNK-38",
+          "color": "розовый",
+          "size": "38",
+          "price": 135000,
+          "stock": 4,
+          "image": "girl sneakers/Pink sneakers.jpg"
+        },
+        {
+          "sku": "SNK-W-PNK-39",
+          "color": "розовый",
+          "size": "39",
+          "price": 135000,
+          "stock": 0,
+          "image": "girl sneakers/Pink sneakers.jpg"
+        }
+      ]
+    },
+    {
+      "id": "prod-jeans-1",
+      "name": "Джинсы Classic Blue",
+      "category": "jeans",
+      "gender": "men",
+      "thumbnail": "men jeans/Big Boy.jpg",
+      "description": "Классические прямые джинсы.",
+      "variants": [
+        {
+          "sku": "JNS-M-BLU-32",
+          "color": "синий",
+          "size": "32",
+          "price": 140000,
+          "stock": 6,
+          "image": "men jeans/Big Boy.jpg"
+        },
+        {
+          "sku": "JNS-M-BLU-34",
+          "color": "синий",
+          "size": "34",
+          "price": 140000,
+          "stock": 3,
+          "image": "men jeans/Dime.jpg"
+        }
+      ]
+    },
+    {
+      "id": "prod-jeans-2",
+      "name": "Джинсы Girl Fit",
+      "category": "jeans",
+      "gender": "women",
+      "thumbnail": "girl jeans/Female jeans (1).jpg",
+      "description": "Узкие женские джинсы.",
+      "variants": [
+        {
+          "sku": "JNS-W-BLU-26",
+          "color": "синий",
+          "size": "26",
+          "price": 145000,
+          "stock": 4,
+          "image": "girl jeans/Female jeans (1).jpg"
+        },
+        {
+          "sku": "JNS-W-BLU-27",
+          "color": "синий",
+          "size": "27",
+          "price": 145000,
+          "stock": 2,
+          "image": "girl jeans/Female jeans (2).jpg"
+        }
+      ]
+    },
+    {
+      "id": "prod-acc-1",
+      "name": "Рюкзак Urban",
+      "category": "accessories",
+      "gender": "unisex",
+      "thumbnail": "men accessories/Акссесуар (1).jpg",
+      "description": "Стильный рюкзак для города.",
+      "variants": [
+        {
+          "sku": "ACC-BAG-01",
+          "color": "чёрный",
+          "size": "one-size",
+          "price": 80000,
+          "stock": 10,
+          "image": "men accessories/Акссесуар (1).jpg"
+        }
+      ]
+    },
+    {
+      "id": "prod-acc-2",
+      "name": "Кепка Classic",
+      "category": "accessories",
+      "gender": "unisex",
+      "thumbnail": "men accessories/Акссесуар (2).jpg",
+      "description": "Бейсболка с лого.",
+      "variants": [
+        {
+          "sku": "ACC-CAP-01",
+          "color": "белый",
+          "size": "one-size",
+          "price": 45000,
+          "stock": 8,
+          "image": "men accessories/Акссесуар (2).jpg"
+        }
+      ]
+    }
+  ],
+  "orders": [],
+  "invoices": [
+    {
+      "id": "inv-31385a5a21706669",
+      "orderId": "inv-31385a5a21706669",
+      "customer": {},
+      "items": [
+        {
+          "name": "Test item",
+          "price": 100,
+          "quantity": 1
+        }
+      ],
+      "total": 100,
+      "status": "paid",
+      "createdAt": "2026-06-27T10:22:29.526Z",
+      "payUrl": "/api/payments/pay/inv-31385a5a21706669",
+      "paidAt": "2026-06-27T10:22:36.075Z"
+    },
+    {
+      "id": "inv-d104834c3d526d23",
+      "orderId": "inv-d104834c3d526d23",
+      "customer": {},
+      "items": [
+        {
+          "id": 3007,
+          "name": "Numeris",
+          "price": 148000,
+          "description": "Кроссовки Numeris для мужчин",
+          "image": "men sneakers/Numeris.jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "серый",
+            "хаки"
+          ],
+          "category": "sneakers",
+          "gender": "men",
+          "stock": 8
+        }
+      ],
+      "total": 148000,
+      "status": "paid",
+      "createdAt": "2026-06-27T10:23:39.926Z",
+      "payUrl": "/api/payments/pay/inv-d104834c3d526d23",
+      "paidAt": "2026-06-27T10:23:39.933Z"
+    },
+    {
+      "id": "inv-264c1a605ca699d3",
+      "orderId": "inv-264c1a605ca699d3",
+      "customer": {},
+      "items": [
+        {
+          "id": 3007,
+          "name": "Numeris",
+          "price": 148000,
+          "description": "Кроссовки Numeris для мужчин",
+          "image": "men sneakers/Numeris.jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "серый",
+            "хаки"
+          ],
+          "category": "sneakers",
+          "gender": "men",
+          "stock": 8
+        }
+      ],
+      "total": 148000,
+      "status": "paid",
+      "createdAt": "2026-06-27T10:23:46.861Z",
+      "payUrl": "/api/payments/pay/inv-264c1a605ca699d3",
+      "paidAt": "2026-06-27T10:23:46.867Z"
+    },
+    {
+      "id": "inv-427299aa2bd4455e",
+      "orderId": "inv-427299aa2bd4455e",
+      "customer": {},
+      "items": [
+        {
+          "id": 3007,
+          "name": "Numeris",
+          "price": 148000,
+          "description": "Кроссовки Numeris для мужчин",
+          "image": "men sneakers/Numeris.jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "серый",
+            "хаки"
+          ],
+          "category": "sneakers",
+          "gender": "men",
+          "stock": 8
+        }
+      ],
+      "total": 148000,
+      "status": "paid",
+      "createdAt": "2026-06-27T10:24:02.105Z",
+      "payUrl": "/api/payments/pay/inv-427299aa2bd4455e",
+      "paidAt": "2026-06-27T10:24:02.111Z"
+    },
+    {
+      "id": "inv-3985f76fe54a259d",
+      "orderId": "inv-3985f76fe54a259d",
+      "customer": {},
+      "items": [
+        {
+          "id": 3007,
+          "name": "Numeris",
+          "price": 148000,
+          "description": "Кроссовки Numeris для мужчин",
+          "image": "men sneakers/Numeris.jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "серый",
+            "хаки"
+          ],
+          "category": "sneakers",
+          "gender": "men",
+          "stock": 8
+        }
+      ],
+      "total": 148000,
+      "status": "paid",
+      "createdAt": "2026-06-27T10:24:23.387Z",
+      "payUrl": "/api/payments/pay/inv-3985f76fe54a259d",
+      "paidAt": "2026-06-27T10:24:23.394Z"
+    },
+    {
+      "id": "inv-07222a948a7b9668",
+      "orderId": "inv-07222a948a7b9668",
+      "customer": {},
+      "items": [
+        {
+          "id": 2005,
+          "name": "Champs",
+          "price": 110000,
+          "description": "Футболка Champs (женская)",
+          "image": "girl shirt/Champs.jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "белый",
+            "серый"
+          ],
+          "category": "tshirts-women",
+          "stock": 10
+        }
+      ],
+      "total": 110000,
+      "status": "paid",
+      "createdAt": "2026-06-27T10:26:38.851Z",
+      "payUrl": "/api/payments/pay/inv-07222a948a7b9668",
+      "paidAt": "2026-06-27T10:26:38.857Z"
+    },
+    {
+      "id": "inv-e3fa78323069ec6b",
+      "orderId": "inv-e3fa78323069ec6b",
+      "customer": {},
+      "items": [
+        {
+          "name": "Оплата заказа",
+          "price": 0,
+          "quantity": 1
+        }
+      ],
+      "total": 0,
+      "status": "paid",
+      "createdAt": "2026-06-27T10:27:36.335Z",
+      "payUrl": "/api/payments/pay/inv-e3fa78323069ec6b",
+      "paidAt": "2026-06-27T10:27:36.342Z"
+    },
+    {
+      "id": "inv-56d1b7e9b164b408",
+      "orderId": "inv-56d1b7e9b164b408",
+      "customer": {},
+      "items": [
+        {
+          "id": 3004,
+          "name": "Golden Goose",
+          "price": 166000,
+          "description": "Кроссовки Golden Goose для мужчин",
+          "image": "men sneakers/Golden Goose.jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "бордовый",
+            "чёрный"
+          ],
+          "category": "sneakers",
+          "gender": "men",
+          "stock": 2,
+          "reservedUntil": 1782556999761
+        }
+      ],
+      "total": 166000,
+      "status": "paid",
+      "createdAt": "2026-06-27T10:41:27.631Z",
+      "paidAt": "2026-06-27T10:41:27.632Z",
+      "receiptFileName": "Deadpool.png"
+    },
+    {
+      "id": "inv-87243511f8188208",
+      "orderId": "inv-87243511f8188208",
+      "customer": {},
+      "items": [
+        {
+          "id": 1005,
+          "name": "Eyes",
+          "price": 130000,
+          "description": "Футболка Eyes",
+          "image": "Man shirt/Eyes.jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "бордовый",
+            "чёрный"
+          ],
+          "category": "tshirts",
+          "stock": 2,
+          "reservedUntil": 1782558324882
+        }
+      ],
+      "total": 130000,
+      "status": "paid",
+      "createdAt": "2026-06-27T10:50:37.871Z",
+      "paidAt": "2026-06-27T10:50:37.871Z",
+      "receiptFileName": "stranger Ð²ÐµÐ»Ð¸Ðº.jpg"
+    },
+    {
+      "id": "inv-09db0c3c99f61eda",
+      "orderId": "inv-09db0c3c99f61eda",
+      "customer": {},
+      "items": [
+        {
+          "id": 4003,
+          "name": "Adidas",
+          "price": 162000,
+          "description": "Кроссовки Adidas для женщин",
+          "image": "girl sneakers/Adidas.jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "бордовый",
+            "чёрный"
+          ],
+          "category": "sneakers",
+          "gender": "women",
+          "stock": 7
+        },
+        {
+          "id": 5010,
+          "name": "Tommy Hilfliger",
+          "price": 145000,
+          "description": "Худи Tommy Hilfliger для мужчин",
+          "image": "men hoodies/Tommy Hilfliger.jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "бордовый",
+            "чёрный"
+          ],
+          "category": "hoodies",
+          "gender": "men",
+          "stock": 9
+        },
+        {
+          "id": 3007,
+          "name": "Numeris",
+          "price": 148000,
+          "description": "Кроссовки Numeris для мужчин",
+          "image": "men sneakers/Numeris.jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "серый",
+            "хаки"
+          ],
+          "category": "sneakers",
+          "gender": "men",
+          "stock": 8
+        }
+      ],
+      "total": 455000,
+      "status": "paid",
+      "createdAt": "2026-06-27T11:03:12.010Z",
+      "paidAt": "2026-06-27T11:03:12.010Z",
+      "receiptFileName": "MatrixPlaysYT face.png"
+    },
+    {
+      "id": "inv-cbd3714b93492f1a",
+      "orderId": "inv-cbd3714b93492f1a",
+      "customer": {},
+      "items": [
+        {
+          "name": "Оплата заказа",
+          "price": 153000,
+          "quantity": 1
+        }
+      ],
+      "total": 153000,
+      "status": "paid",
+      "createdAt": "2026-06-27T11:03:37.631Z",
+      "paidAt": "2026-06-27T11:03:37.631Z",
+      "receiptFileName": "3651ffb48dbdb4f63429f531e8dd0700.jpg"
+    },
+    {
+      "id": "inv-d77f3a6a0e4e4803",
+      "orderId": "inv-d77f3a6a0e4e4803",
+      "customer": {},
+      "items": [
+        {
+          "name": "Оплата заказа",
+          "price": 166000,
+          "quantity": 1
+        }
+      ],
+      "total": 166000,
+      "status": "paid",
+      "createdAt": "2026-06-29T05:26:50.074Z",
+      "paidAt": "2026-06-29T05:26:50.074Z",
+      "receiptFileName": "photo_2026-01-17_19-14-47.jpg"
+    },
+    {
+      "id": "inv-480a884bdd5aa30d",
+      "orderId": "inv-480a884bdd5aa30d",
+      "customer": {},
+      "items": [
+        {
+          "id": 2011,
+          "name": "Love Green",
+          "price": 118000,
+          "description": "Футболка Love Green (женская)",
+          "image": "girl shirt/Love green.jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "белый",
+            "серый"
+          ],
+          "category": "tshirts-women",
+          "stock": 10
+        }
+      ],
+      "total": 118000,
+      "status": "paid",
+      "createdAt": "2026-07-14T21:48:11.499Z",
+      "paidAt": "2026-07-14T21:48:11.500Z",
+      "receiptFileName": "123.jpg"
+    },
+    {
+      "id": "inv-36d53657faa3922e",
+      "orderId": "inv-36d53657faa3922e",
+      "customer": {
+        "telegram": "@sskuf1"
+      },
+      "items": [
+        {
+          "name": "Оплата заказа",
+          "price": 0,
+          "quantity": 1
+        }
+      ],
+      "total": 0,
+      "status": "paid",
+      "createdAt": "2026-07-15T15:28:05.010Z",
+      "paidAt": "2026-07-15T15:28:05.010Z",
+      "receiptFileName": "1b9acc4579eca216b2c7094b3a185889.jpg"
+    },
+    {
+      "id": "inv-7d277173fefec74f",
+      "orderId": "inv-7d277173fefec74f",
+      "customer": {
+        "telegram": "@ssskuf1"
+      },
+      "items": [
+        {
+          "name": "Оплата заказа",
+          "price": 0,
+          "quantity": 1
+        }
+      ],
+      "total": 0,
+      "status": "paid",
+      "createdAt": "2026-07-15T15:30:54.838Z",
+      "paidAt": "2026-07-15T15:30:54.838Z",
+      "receiptFileName": "1b9acc4579eca216b2c7094b3a185889.jpg"
+    },
+    {
+      "id": "inv-1d14850eb7a46b65",
+      "orderId": "inv-1d14850eb7a46b65",
+      "customer": {
+        "telegram": "@ssskuf1"
+      },
+      "items": [
+        {
+          "id": 1021,
+          "name": "Tommy Hilfliger",
+          "price": 130000,
+          "description": "Футболка Tommy Hilfliger",
+          "image": "Man shirt/Tommy Hilfliger.jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "хаки",
+            "синий"
+          ],
+          "category": "tshirts",
+          "stock": 12
+        }
+      ],
+      "total": 130000,
+      "status": "paid",
+      "createdAt": "2026-07-15T15:31:16.430Z",
+      "paidAt": "2026-07-15T15:31:16.430Z",
+      "receiptFileName": "1b9acc4579eca216b2c7094b3a185889.jpg"
+    },
+    {
+      "id": "inv-e8b96dc37d5e8db9",
+      "orderId": "inv-e8b96dc37d5e8db9",
+      "customer": {
+        "telegram": "@ssskuf1"
+      },
+      "items": [
+        {
+          "id": 4018,
+          "name": "SuperStar",
+          "price": 162000,
+          "description": "Кроссовки SuperStar для женщин",
+          "image": "girl sneakers/SuperStar.jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "серый",
+            "хаки"
+          ],
+          "category": "sneakers",
+          "gender": "women",
+          "stock": 7
+        }
+      ],
+      "total": 162000,
+      "status": "paid",
+      "createdAt": "2026-07-22T16:46:37.947Z",
+      "paidAt": "2026-07-22T16:46:37.947Z",
+      "receiptFileName": "123.jpg"
+    },
+    {
+      "id": "inv-7b1d6bb72c0a2cd3",
+      "orderId": "inv-7b1d6bb72c0a2cd3",
+      "customer": {
+        "telegram": "@ssskuf1"
+      },
+      "items": [
+        {
+          "id": 8011,
+          "name": "Versatile",
+          "price": 350000,
+          "description": "Джинсы Female Jeans (12) для женщин",
+          "image": "girl jeans/Female jeans (12).jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "чёрный",
+            "белый"
+          ],
+          "category": "jeans",
+          "gender": "women",
+          "stock": 7
+        }
+      ],
+      "total": 350000,
+      "status": "paid",
+      "createdAt": "2026-07-22T18:05:21.302Z",
+      "paidAt": "2026-07-22T18:05:21.302Z",
+      "receiptFileName": "123.jpg"
+    },
+    {
+      "id": "inv-8665ca3b2598adcf",
+      "orderId": "inv-8665ca3b2598adcf",
+      "customer": {
+        "telegram": "@ssanco"
+      },
+      "items": [
+        {
+          "id": 1011,
+          "name": "Mini Spider Man",
+          "price": 150000,
+          "description": "Футболка Mini Spider Man",
+          "image": "Man shirt/mini spider man.jpg",
+          "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+          ],
+          "colors": [
+            "бордовый",
+            "чёрный"
+          ],
+          "category": "tshirts",
+          "stock": 12
+        }
+      ],
+      "total": 150000,
+      "status": "paid",
+      "createdAt": "2026-07-22T18:11:22.896Z",
+      "paidAt": "2026-07-22T18:11:22.896Z",
+      "receiptFileName": "watermarked_img_10419282691105546946.jpg"
+    }
+  ]
+}
