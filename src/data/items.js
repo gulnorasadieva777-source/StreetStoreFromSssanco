@@ -179,12 +179,12 @@ const manShirtItems = manShirtFiles.map((f, i) => applyItemOverrides({
   name: humanizeFilename(f),
   price: 120000 + (i % 4) * 10000,
   description: `Футболка ${humanizeFilename(f)}`,
-  image: `Man shirt/${f}`,
+  image: `man shirt/${f}`,
   sizes: sizes,
   colors: [colors[i % colors.length], colors[(i + 1) % colors.length]],
   category: 'tshirts',
   stock: i % 5 === 0 ? 2 : 12
-}, f, 'Man shirt'))
+}, f, 'man shirt'))
 
 // Files in img/girl shirt — add as women's tshirts
 const girlShirtFiles = [
