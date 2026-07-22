@@ -8,7 +8,7 @@
     "proxy": "node server/proxy.js",
     "build": "vite build",
     "preview": "vite preview",
-    "postinstall": "cd server && npm install"
+    "postinstall": "cd server && npm install && cd .. && npm run build"
   },
   "dependencies": {
     "axios": "^1.18.0",
