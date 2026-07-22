@@ -301,6 +301,95 @@ body.theme-cyber .site-footer {
   gap: 20px;
   box-shadow: 0 22px 48px rgba(2, 7, 25, 0.24);
   border: 1px solid rgba(255, 255, 255, 0.08);
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.burger-button {
+  display: none;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  cursor: pointer;
+  padding: 8px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.burger-button span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+  border-radius: 10px;
+  transition: transform 160ms ease, opacity 160ms ease;
+}
+
+.burger-button span:nth-child(1) { transform-origin: top left; }
+.burger-button span:nth-child(3) { transform-origin: bottom left; }
+
+.burger-button.open span:nth-child(1) {
+  transform: rotate(45deg) translate(2px, 2px);
+}
+
+.burger-button.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-button.open span:nth-child(3) {
+  transform: rotate(-45deg) translate(2px, -2px);
+}
+
+.mobile-menu {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 0;
+  right: 0;
+  background: rgba(2, 12, 24, 0.96);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  z-index: 70;
+}
+
+.mobile-nav,
+.mobile-menu-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mobile-menu .cart-link,
+.mobile-menu .header-button {
+  width: 100%;
 }
 
 .logo {
@@ -308,7 +397,7 @@ body.theme-cyber .site-footer {
   font-size: 22px;
   display: flex;
   align-items: center;
-  gap: 14px
+  gap: 14px;
 }
 
 .logo img {
@@ -431,6 +520,9 @@ main {
   .image-placeholder { height: 420px }
   .product-image { height: 520px }
   .categories-grid { grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)) }
+  .header-nav { display: none }
+  .burger-button { display: inline-flex }
+  .header-actions { justify-content: flex-end; gap: 10px }
 }
 
 @media (max-width: 640px) {
